@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ປະຫວັດນັກສຶກສາ</title>
+    <style>
+        body {
+            font-family: 'Noto Sans Lao', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .personal-info {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .personal-info img {
+            width: 180px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .bio-info {
+            flex: 1;
+        }
+
+        .bio-info p {
+            line-height: 1.8;
+            margin: 5px 0;
+        }
+        img {
+            width: 180px;
+            height: auto;
+            margin-bottom: 10px;
+        h1, h2 {
+            text-align: center;
+            color: #444;
+        }
+    }
+        .personal-info, .family-info, .gallery, .video-section {
+            margin: 20px auto;
+            max-width: 800px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .personal-info p {
+            line-height: 1.8;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 250px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        video {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">ປະຫວັດນັກສຶກສາ</h1>
+
+    <div class="personal-info">
+        <h2>ປະວັດສ່ວນຕົວ</h2>
+        <img src="IMG/1.jpg" alt="Profile Image">
+        <div class="bio-info">
+            <p><strong>- ຊື່:</strong> ທ ອາທິດິດ ແກ້ວສະຫວັດ</p>
+            <p><strong>- ວັນເກີດ:</strong> ວັນທີ 22 ກັນຍາ 2005</p>
+            <p><strong>- ສັນຊາດ:</strong> ລາວ</p>
+            <p><strong>- ບ້ານປະຈຸບັນ:</strong> ບ້ານ ນາສຳພັນ ເມືອງ ຫຼວງພະບາງ ແຂວງ ຫຼວງພະບາງ</p>
+            <p><strong>- ສຶກສາທີ່:</strong> ມະຫາວິທະຍາໄລສຸພານຸວົງ ແຫ້ງຊາດ ແຂວງຫຼວງພະບາງ</p>
+        </div>
+    </div>
+
+    <div class="family-info">
+        <h2>ຂໍ້ມູນຄອບຄົວ</h2>
+        <table>
+            <tr>
+                <th>ລຳດັບ</th>
+                <th>ຊື່</th>
+                <th>ຄວາມສໍາພັນ</th>
+                <th>ເບີໂທ</th>
+                <th>ສະຖານທີ່</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>ທ ສຸບັນດິດ ແກ້ວສະຫວັດ</td>
+                <td>ພໍ່</td>
+                <td>020 58676535</td>
+                <td>ແຂວງ ຫຼວງພະບາງ</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>ນ ອຳພອນ ອາດຫານ</td>
+                <td>ແມ່</td>
+                <td>020 22852226</td>
+                <td>ແຂວງ ຫຼວງພະບາງ</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="gallery">
+        <h2>ຮູບພາບ</h2>
+        <img src="IMG/2.jpg" alt="ຮູບ 1">
+        <img src="IMG/3.jpg" alt="ຮູບ 2">
+        <img src="IMG/4.jpg" alt="ຮູບ 3">
+    </div>
+
+    <div class="video-section">
+        <h2>ວິດີໂອ</h2>
+        <video controls>
+            <source src="Video/5.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+</html>
